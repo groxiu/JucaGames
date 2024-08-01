@@ -24,7 +24,7 @@
     color: var(--font-color);
     font-size: 14px;
     font-family: var(--font);
-    width: 80%;
+    width: 90%;
 }
 .pesquisa::placeholder{
     color: var(--font-color); 
