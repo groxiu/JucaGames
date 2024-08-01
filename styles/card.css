@@ -1,0 +1,37 @@
+.card{
+    background-color: var(--headercolor);
+    margin: 1em;
+    display: flex;
+    font-family: var(--font);
+    padding: 1em;
+    border-radius: 24px;
+    gap:5%;
+}
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card-image{
+    width: 50%;
+}
+.card-descricao-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--backgroundbanner);
+}
+.card-descricao-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+   margin-top: 5%;
+    
+}

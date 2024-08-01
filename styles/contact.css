@@ -1,0 +1,31 @@
+.contact{
+    padding: 1em;
+}
+.contact-title{
+    margin-top: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font);
+    color: var(--backgroundbanner);
+}
+.contact-text{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--font);
+    margin: 1em 0;
+}
+.email{
+
+    border-radius: 20px;
+    padding: 1em;
+    border: 2px solid var(--backgroundbanner);
+    width: 80%;;
+    font-family: var(--font);
+}
+.email::placeholder{
+    background: url(/assets/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    font-family: var(--font);
+}
+

@@ -1,0 +1,75 @@
+.menu{
+    width: 30px;
+    height: 24px;
+    background-image: url("/assets/Menu.png");
+    display: inline-block;
+    
+}
+header{
+    background-color: var(--headercolor);
+    position: relative;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 3%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.list-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: var(--headercolor);
+    width: 60vw;
+    font-size: 16px;
+    box-shadow: 1px 2px 2px black;
+    left: -1px;
+    font-weight: 400;
+    font-family: var(--font);
+    z-index: 10;
+}
+.container-botao:checked~.list-menu{
+    display: block;
+   
+}
+.list-item{
+    width: 250px;
+    height: 56px;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0.5em;
+   
+}
+.list-item-title{
+    color: rgb(220, 95, 0);
+    font-weight: 700;
+    padding: 0.5em; 
+    width: 250px;
+    height: 56px;
+   
+   
+}
+.list-item-link{
+    text-decoration: none;
+}
+.container-botao{
+    display: none;
+}
+.logo{
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 500;
+}
+.logo-name{
+    color: rgb(220, 95, 0);
+    font-size: 24px;
+    font-weight: 800;
+    
+}

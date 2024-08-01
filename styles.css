@@ -1,0 +1,24 @@
+@import url(styles/header.css);
+@import url(styles/Banner.css);
+@import url(styles/carrosel.css);
+@import url(/styles/card.css);
+@import url(styles/generos.css);
+@import url(styles/contact.css);
+@import url(styles/footer.css);
+
+
+:root{
+   --backgroundcolor: rgb(238, 238, 238);
+   --headercolor: rgb(255, 248, 243);
+   --font-color: rgb(255, 255, 255);
+   --font: 'Poppins';
+   --backgroundbanner: rgb(220, 95, 0);
+
+}
+
+   
+body{
+   background-color: var(--backgroundcolor);
+  
+}
+

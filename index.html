@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>JucaGames</title>
+</head>
+<body>
+    <header class="icons">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container-botao">
+                <label for="menu">
+                     <span class="menu" class="container-botao-image"></span>
+                </label>
+                <ul class="list-menu">
+                    <li class="list-item-title">Categorias</li>
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">FPS</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">RPG</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">Corrida</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">Esportes</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item-link" href="#">Estrategia</a>
+                    </li>
+                </ul>
+               <h1 class="logo"><strong class="logo-name">JUCA</strong>games</h1>
+            </div>
+            <div class="container">
+             <a href="#"><img src="/assets/Favoritos.png" alt=""></a>
+             <a href="#"><img src="/assets/Sacola.png" alt=""></a>
+             <a href="#"><img src="/assets/Usuario.png" alt=""></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner-title">Encontre o seu novo jogo favorito</h2>
+        <input class="pesquisa" placeholder="Pesquisar" type="search">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel-title">NOVOS GAMES</h2>
+        
+        <div class="swiper">
+       
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide"><img src="games-cover/allstar.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/dungeonsofhinterberg.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/flinlock.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/flock.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/cod3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/magicaldelicacy.jpg" alt=""></div>
+            </div>
+           
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </section>
+    <section>
+        <div class="card">
+            <div class="card__descricao">
+                <h3 class="card-descricao-title">Talvez você goste de</h3>
+                <h2 class="card-descricao-name">Call of Duty MW3</h2>
+                <p class="card-text">Call of Duty: Modern Warfare 3 é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela Infinity Ward e pela Sledgehammer Games</p>
+                <div class="card-icons">
+                    <a href="#"><img src="assets/Favoritos.png" alt=""></a>
+                    <a href="#"><img src="assets/Sacola.png" alt=""></a>
+                </div>
+                
+            </div>
+            <img src="/games-cover/cod3.jpg" class="card-image">
+            
+        </div>
+    </section>
+
+    <section class="carrosel">
+        <h2 class="carrosel-title">MAIS VENDIDOS</h2>
+        
+        <div class="swiper">
+       
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide"><img src="games-cover/fifacover.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/minecraftcover.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/f1cover.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="games-cover/forzacover.jpg" alt=""></div>
+            </div>
+           
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </section>
+    <section class="generos">
+        <h2 class="generos-title">Gêneros mais pesquisados</h2>
+        <div class="generos-link">
+        <a href="#" class="genero-btn">FPS</a>
+        <a href="#" class="genero-btn">RPG</a>
+        <a href="#" class="genero-btn">Corrida</a>
+        <a href="#" class="genero-btn">Esportes</a>
+        <a href="#" class="genero-btn">Estrategias</a>
+    </div>
+    </section>
+    <section class="contact">
+        <h2 class="contact-title">Fique ligado nas novidades!</h2>
+        <p class="contact-text">Receba na sua caixa de e-mail noticias sobre promoções e lançamentos</p>
+        <input type="email" class="email" placeholder="Digite seu email">
+    </section>
+    <hr/>
+    <footer class="footer">
+        <h2 class="footer-title">JucaGames</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2, 
+            autoplay: {
+                delay: 5000,
+            },
+            effect: 'coverflow',
+            scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+            dragSize: 100,
+      },
+    })
+     
+    </script>
+</body>
+</html>

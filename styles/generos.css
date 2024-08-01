@@ -1,0 +1,30 @@
+.generos{
+    background-color: var(--backgroundbanner);
+    text-align: center;
+
+}
+.generos-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+
+} 
+.genero-btn{
+    background-color: var(--backgroundcolor);
+    text-decoration: none;
+    padding: 1em;
+    font-family: var(--font);
+    color: var(--backgroundbanner);
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.generos-title{
+    font-family: var(--font);
+    padding-top: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--headercolor);
+}
