@@ -29,3 +29,36 @@
     font-family: var(--font);
 }
 
+@media screen and (min-width: 1024px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        
+    }
+    .contact-section{
+        width: 50%;        
+    }
+    .contact-title{
+        font-size: 24px;
+    }
+    .email{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1728px){
+    .contact-section{
+        width: 40%;
+    }
+    .contact{
+        padding: 5em;
+    }
+    .contact-title{
+        font-size: 36px;
+    }
+    .contact-text{
+        font-size: 24px;
+    }
+}
+

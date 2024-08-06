@@ -28,3 +28,12 @@
     font-weight: 400;
     color: var(--headercolor);
 }
+
+@media screen and (min-width: 1024px){
+    .generos-title{
+        font-size: 24px;
+    }
+    .genero-btn{
+        padding: 2em;
+    }
+}

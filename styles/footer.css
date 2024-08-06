@@ -8,3 +8,55 @@
 hr{
     margin: 0;
 }
+.media{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .footer-title{
+        font-size: 24px;
+    }
+    .media{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        text-align: center;
+        margin-bottom: 1em;
+        align-items: center;
+        
+    }
+    .media-title{
+        margin: 1em 0;
+        font-family: var(--font);
+        font-size: 20px;
+        color: rgba(133, 133, 133, 1);
+        width: 80%;
+        font-weight: 400;
+    }
+    .footer{
+        margin: 0 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        justify-content: center;
+  
+    }
+    .media-item{
+        text-decoration: none;
+        display: flex;
+        gap: 0.8em;
+        justify-content: center;
+        align-items: center;
+        color: rgba(133, 133, 133, 1);
+        font-family: var(--font);
+        
+    }
+    .img-media{
+        width: 15%;
+    }
+ 
+    
+}

@@ -22,3 +22,35 @@
   
 
 }
+
+@media screen and (min-width: 1024px){
+    .carrosel-title{
+        font-size: 26px;
+        padding-top: 1em;
+    }
+    .swiper{
+        width: 70%;
+    }
+
+}
+@media screen and (min-width: 1728px){
+    .carrosel-title{
+        font-size: 32px
+    }
+    .card-carrosel-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin: 0 10vw 3em 10vw;
+       
+        
+    }
+    .swiper{
+        width: 90%;
+    }
+    .trending{
+        width: 60%;
+        margin-bottom: 3em;
+    }
+}
