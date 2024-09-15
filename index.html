@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
     <title>JucaGames</title>
@@ -20,19 +23,22 @@
                 <ul class="list-menu">
                     <li class="list-item-title">Categorias</li>
                     <li class="list-item">
-                        <a class="list-item-link" href="#">FPS</a>
+                        <a class="list-item-link" id="todos" href="#">Todos</a>
                     </li>
                     <li class="list-item">
-                        <a class="list-item-link" href="#">RPG</a>
+                        <a class="list-item-link" id="FPS" href="#">FPS</a>
                     </li>
                     <li class="list-item">
-                        <a class="list-item-link" href="#">Corrida</a>
+                        <a class="list-item-link" id="RPG" href="#">RPG</a>
                     </li>
                     <li class="list-item">
-                        <a class="list-item-link" href="#">Esportes</a>
+                        <a class="list-item-link" id="Corrida" href="#">Corrida</a>
                     </li>
                     <li class="list-item">
-                        <a class="list-item-link" href="#">Estrategia</a>
+                        <a class="list-item-link" id="Ação/Aventura" href="#">Ação/Aventura</a>
+                    </li>
+                    <li class="list-item">
+                        <a class="list-item-link" id="Simulação" href="#">Simulação</a>
                     </li>
                 </ul>
                <h1 class="logo"><strong class="logo-name">JUCA</strong>games</h1>
@@ -45,19 +51,22 @@
               </label>  
               <ul class="list-menu">
                 <li class="list-item">
-                    <a class="list-item-link" href="#">FPS</a>
+                    <a class="list-item-link" id="todos" href="#">Todos</a>
                 </li>
                 <li class="list-item">
-                    <a class="list-item-link" href="#">RPG</a>
+                    <a class="list-item-link" id="FPS" href="#">FPS</a>
                 </li>
                 <li class="list-item">
-                    <a class="list-item-link" href="#">Corrida</a>
+                    <a class="list-item-link" id="RPG"href="#">RPG</a>
                 </li>
                 <li class="list-item">
-                    <a class="list-item-link" href="#">Esportes</a>
+                    <a class="list-item-link" id="Corrida" href="#">Corrida</a>
                 </li>
                 <li class="list-item">
-                    <a class="list-item-link" href="#">Estrategia</a>
+                    <a class="list-item-link" id="Ação/Aventura" href="#">Ação/Aventura</a>
+                </li>
+                <li class="list-item">
+                    <a class="list-item-link" id="Simulação" href="#">Simulação</a>
                 </li>
             </ul> 
                 <li class="container-link">
@@ -84,29 +93,19 @@
         <h2 class="banner-title">Encontre o seu novo jogo favorito</h2>
         <input class="pesquisa" placeholder="Pesquisar" type="search">
     </section>
-    <section class="carrosel">
-        <h2 class="carrosel-title">NOVOS GAMES</h2>
-        <div class="card-carrosel-flex">
-            <div class="swiper">
+    <section>
+        <h2 class="games-title">NOVOS GAMES</h2>
+
+        <div class="games_card-list">
        
-                <div class="swiper-wrapper">
+                <div class="games_list" id="games">
                     
-                    <div class="swiper-slide"><img src="games-cover/allstar.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="games-cover/dungeonsofhinterberg.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="games-cover/flinlock.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="games-cover/flock.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="games-cover/cod3.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="games-cover/magicaldelicacy.jpg" alt=""></div>
                 </div>
-           
-                <div class="swiper-scrollbar"></div>
-            </div>
-        
             <div class="card">
                 <div class="card__descricao">
-                    <h3 class="card-descricao-title">Talvez você goste de</h3>
+                    <h3 class="card-descricao-title">Jogo em destaque:</h3>
                     <h2 class="card-descricao-name">Call of Duty MW3</h2>
-                    <p class="card-text">Call of Duty: Modern Warfare 3 é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela Infinity Ward e pela Sledgehammer Games</p>
+                    <p class="card-text">Modern Warfare III dá continuidade à narrativa iniciada em Modern Warfare II (2022). A história se concentra na luta global contra a facção terrorista conhecida como "Shadow Company", que está por trás de uma série de ataques coordenados ao redor do mundo.</p>
                     <div class="card-icons">
                         <a href="#"><img src="assets/Favoritos.png" alt=""></a>
                         <a href="#"><img src="assets/Sacola.png" alt=""></a>
@@ -124,21 +123,32 @@
     
 
     <section class="carrosel">
-        <h2 class="carrosel-title">MAIS VENDIDOS</h2>
-        
+        <h2 class="games-title">MAIS VENDIDOS</h2>
         <div class="swiper trending">
-       
+           
             <div class="swiper-wrapper">
-                
-                <div class="swiper-slide"><img src="games-cover/fifacover.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="games-cover/minecraftcover.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="games-cover/f1cover.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="games-cover/forzacover.jpg" alt=""></div>
+       
+              <div class="swiper-slide"><img src="games-cover/fifacover.jpg" class="slide-img-trending"></div>
+              <div class="swiper-slide"><img src="games-cover/minecraftcover.jpg" class="slide-img-trending"></div>
+              <div class="swiper-slide"><img src="games-cover/cod3.jpg" class="slide-img-trending"></div>
+              <div class="swiper-slide"><img src="games-cover/dungeonsofhinterberg.jpg" class="slide-img-trending"></div>
+              <div class="swiper-slide"><img src="games-cover/f1cover.jpg" class="slide-img-trending"></div>
+              <div class="swiper-slide"><img src="games-cover/flinlock.jpg" class="slide-img-trending"></div>
+              ...
             </div>
-            
-              
+       
+         
+          
+        
+
+          
+        
             <div class="swiper-scrollbar"></div>
-        </div>
+          </div>
+
+
+
+
 
     </section>
     <section class="generos">
@@ -182,25 +192,11 @@
         </div>
         
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3, 
-            loop: true,
-            autoplay: {
-                delay: 5000,
-            },
-            effect: 'coverflow',
-            scrollbar: {
-            el: ".swiper-scrollbar",
-            hide: true,
-            dragSize: 100,
-           
-      },
-   
-    })
-     
-    </script>
+ 
+    <script src="/app/menu.js"></script>
+    <script src="/app/filter.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/app/swiper.js"></script>
+    <script src="/app/main.js"></script>
 </body>
 </html>

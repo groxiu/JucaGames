@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Mortal Kombat 11",
+    "category": "Ação",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.9688.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.09c2e91e-28bd-4f6f-bfd6-79d6b241667a?q=90&w=177&h=265"
+  },
+  {
+    "name": "Kingdom Come: Deliverance",
+    "category": "Ação/Aventura",
+    "price": 49.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.255.69163470958040887.ac07b798-77c0-4384-b8ae-89bb2b54db97.e8fd159c-fb48-4784-9a2f-2282cff3e7fa?q=90&w=177&h=265"
+  },
+  {
+    "name": "Minecraft",
+    "category": "Sandbox",
+    "price": 26.95,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.49619.14581193029730121.b25767a3-4121-4f3d-b5f2-9bda3c99403a.a2dbae3e-8b40-47ce-a85b-08f5f6260533?q=90&w=177&h=265"
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "category": "RPG",
+    "price": 39.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.53717.65858607118306853.39ed2a08-df0d-4ae1-aee0-c66ffb783a34.80ba72da-abfb-4af6-81f2-a443d12fb870?q=90&w=177&h=265"
+  },
+  {
+    "name": "Fortnite",
+    "category": "Battle Royale",
+    "price": "Gratis",
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.61483.70702278257994163.1152c6f1-f586-40eb-a61e-0f8bad1ee621.dac35347-06f6-4003-88b5-931747a876cf?q=90&w=177&h=265"
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "category": "Ação/Aventura",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.34695.13738414994700897.d5f58586-d72e-41d4-84db-1e7957867558.fea84892-88a9-44cf-98d3-07bda55b2444?q=90&w=177&h=265"
+  },
+  {
+    "name": "Overwatch 2",
+    "category": "FPS",
+    "price": 39.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.12909.64800374430761253.267d7140-cb21-4c3c-973f-b40d0a14a435.babc6a01-12f6-455c-bc07-c83ac0c73545?q=90&w=177&h=265"
+  },
+  {
+    "name": "Rayman Legends",
+    "category": "Aventura",
+    "price": 49.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.25053.65843946604617087.4d3f1eaa-9f9b-4884-8da5-69d3fa77479f.c8e55bec-d1f6-4fe4-b3fa-13ac1e79814f?q=90&w=177&h=265"
+  },
+  {
+    "name": "Hades",
+    "category": "Ação/Aventura",
+    "price": 24.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.48496.14093828725404571.e8c4fd85-da7e-4c33-9a85-c97c9f3eeb38.fde6f3ed-4a08-4bb8-8240-9cd19e049803?q=90&w=177&h=265"
+  },
+  {
+    "name": "Apex Legends",
+    "category": "FPS",
+    "price": "Gratis",
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.39343.14171592045015702.f645dff8-19d2-4963-9c20-da3988c49ed1.074e362a-6db8-414c-8965-a459a13d1368?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+  },
+  {
+    "name": "Planet Coaster 2",
+    "category": "Simulação",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.56461.14268784579049883.7baa6b03-b644-46a0-b2d9-71ca584b3862.fd5441ab-2c3c-40b9-b8d9-f2dd75d57f96?q=90&w=177&h=265"
+    
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "category": "RPG",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.36537.14143814686075364.7e443c56-2382-4bea-8ceb-35638e527cd6.475937df-e65f-4850-b2f0-471c2966f074?q=90&w=177&h=265"
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "category": "Ação/Aventura",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.1547.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.75930d81-6e85-436d-9b61-1279b8dd9b31?q=90&w=177&h=265"
+  },
+  {
+    "name": "Dying Light 2",
+    "category": "Ação/RPG",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.22682.14532159016103478.99c9617a-9acd-41f4-843a-08c83d199add.fec36f6d-8936-4248-b540-6b940fdba671?mode=scale&q=90&h=300&w=200&background=%23FFFFFF"
+  },
+  {
+    "name": "Forza Horizon 5",
+    "category": "Corrida",
+    "price": 59.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.39564.14337700501983954.bd1bedb1-636e-4cb5-9fb9-6bda5bd998e8.dbc769de-db5a-4dd9-9298-04874b1b40ff?q=90&w=177&h=265"
+  },
+  {
+    "name": "Dead Space (2023)",
+    "category": "FPS",
+    "price": 69.99,
+    "cover_image": "https://store-images.s-microsoft.com/image/apps.25575.13710698285394664.b69d40fa-3b9c-47c8-b252-b52cae59523c.f7b6e42a-3b1a-437f-977b-dfa2cf28911e?q=90&w=177&h=265"
+  }
+
+
+]

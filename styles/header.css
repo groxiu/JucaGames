@@ -42,10 +42,7 @@ header{
     border-end-end-radius: 20px;
     
 }
-.container-botao:checked~.list-menu{
-    display: block;
-   
-}
+
 .list-item{
     width: auto;
     height: 56px;
@@ -90,17 +87,11 @@ header{
 .container-link, .container-menu, .container-link-text{
     display: none;
 }
-.list-item:hover{
-    font-size: 36px;
-}
 @media screen and (min-width:1024px){
     .menu{
         display: none;
     }
-    .container-menu:checked~.menu2>.container-link{
-        font-size: 20px;
-        
-    }
+
 
     .icons{
         padding: 1% 5%;
